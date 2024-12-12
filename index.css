@@ -1,0 +1,31 @@
+.intro {
+    text-align: center;
+    color: white;
+}
+
+a:hover {
+    border: aqua;
+    border-style: double;
+
+}
+
+body {
+    background-color: rgba(28, 36, 41, 0.767);
+}
+
+.answer {
+    text-align: center;
+    
+}
+
+.searchbar {
+    width: 300px;
+}
+
+.higherorlower {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
