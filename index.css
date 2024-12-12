@@ -3,18 +3,13 @@
     color: white;
 }
 
-a:hover {
-    border: aqua;
-    border-style: double;
-
-}
-
 body {
     background-color: rgba(28, 36, 41, 0.767);
 }
 
 .answer {
     text-align: center;
+    background-color:coral;
     
 }
 
@@ -22,10 +17,26 @@ body {
     width: 300px;
 }
 
+img {
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+}
+
 .higherorlower {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    height: 100px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
+.infotext {
+    font-size: 18px;
+    background-color: yellowgreen;
+}
+
+.nextgame {
+    display: flex;
+    justify-content: center
+}
