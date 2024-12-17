@@ -21,4 +21,14 @@ function gametwoopttwo() {
     document.getElementById('unknownblinding').innerText = "4,605,005,959(4.6 Billion)"
 }
 
+function gamethreeoptone() {
+    document.getElementById('answerthree').innerText = "Answer = Correct!!!!"
+    document.getElementById('unknownminecraft').innerText = "Got 300 Million Downloads"
+}
+
+function gamethreeopttwo() {
+    document.getElementById('answerthree').innerText = "Answer = Wrong...."
+    document.getElementById('unknownminecraft').innerText = "Got 300 Million Downloads"
+}
+
 
